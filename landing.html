@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Connect with innovative tech startups and boost your career">
+    <title>Estodo - Connect with Startups</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> 
+    <link rel="stylesheet" href="landing.css"> 
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">Estodo</div>
+        <nav>
+            <input type="checkbox" id="mobile-menu">
+            <label for="mobile-menu" class="menu-btn">
+                <span class="menu-icon"></span>
+            </label>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">Features <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="#startups"><i class="fas fa-building"></i> View Startups</a>
+                        <a href="#benefits"><i class="fas fa-star"></i> Benefits</a>
+                        <a href="#testimonials"><i class="fas fa-quote-left"></i> Testimonials</a>
+                    </div>
+                </li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#login" class="login-btn">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h1>Connecting Tech Startups with Top Talent</h1>
+            <p>Discover exciting opportunities to work with innovative startups and accelerate your career growth.</p>
+            <div class="hero-btns">
+                <a href="#startups" class="cta-btn">Explore Startups</a>
+                <a href="#contact" class="cta-btn secondary">Hire Talent</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <h2 class="section-title">Why Choose Estodo?</h2>
+        <p class="section-subtitle">We bridge the gap between ambitious talent and innovative startups</p>
+        <div class="features-container">
+            <div class="feature">
+                <div class="feature-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <h3>Networking</h3>
+                <p>Connect directly with founders and teams of high-growth tech startups.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">
+                    <i class="fas fa-briefcase"></i>
+                </div>
+                <h3>Opportunities</h3>
+                <p>Access exclusive internships and full-time positions in emerging companies.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h3>Growth</h3>
+                <p>Fast-track your career with hands-on experience in dynamic environments.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Startups Section -->
+    <section id="startups" class="startups">
+        <h2 class="section-title">Featured Startups</h2>
+        <p class="section-subtitle">Discover innovative companies looking for talent like you</p>
+        
+        <div class="filter-bar">
+            <div class="filter-options">
+                <span>Filter by:</span>
+                <button class="filter-btn active">All</button>
+                <button class="filter-btn">Tech</button>
+                <button class="filter-btn">Fintech</button>
+                <button class="filter-btn">Health</button>
+                <button class="filter-btn">AI</button>
+            </div>
+            <div class="search-box">
+                <input type="text" placeholder="Search startups...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+        
+        <div class="startup-container">
+            <div class="startup-card">
+                <div class="startup-logo">
+                    <img src="https://images.squarespace-cdn.com/content/v1/622b50f8ea70c32291faa172/1647005957286-S0U3B1ADGKY8T936RYGR/Nexa_normal.jpg?format=500w" alt="NexaTech">
+                </div>
+                <div class="startup-info">
+                    <h3>NexaTech</h3>
+                    <span class="industry">Artificial Intelligence</span>
+                    <p>Building next-gen AI solutions for enterprise automation and optimization.</p>
+                    <div class="startup-meta">
+                        <span><i class="fas fa-map-marker-alt"></i> San Francisco</span>
+                        <span><i class="fas fa-users"></i> 25-50 employees</span>
+                    </div>
+                </div>
+                <div class="startup-actions">
+                    <a href="#" class="view-btn">View Details</a>
+                    <a href="#" class="apply-btn">Apply Now</a>
+                </div>
+            </div>
+            
+            <div class="startup-card">
+                <div class="startup-logo">
+                    <img src="https://imgs.search.brave.com/gTj0UxfqsImYzYR_dir3dgq7z63m3E4do2hxd1lcrpE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzRhLzM3/LzFlLzRhMzcxZWNh/Y2U3NTE5NDVkNTZh/NjhhYzgzNWY4NGFj/LmpwZw" alt="GreenLife">
+                </div>
+                <div class="startup-info">
+                    <h3>GreenLife</h3>
+                    <span class="industry">Sustainability Tech</span>
+                    <p>Developing IoT solutions for smart homes and energy efficiency.</p>
+                    <div class="startup-meta">
+                        <span><i class="fas fa-map-marker-alt"></i> Berlin</span>
+                        <span><i class="fas fa-users"></i> 10-25 employees</span>
+                    </div>
+                </div>
+                <div class="startup-actions">
+                    <a href="#" class="view-btn">View Details</a>
+                    <a href="#" class="apply-btn">Apply Now</a>
+                </div>
+            </div>
+            
+            <div class="startup-card">
+                <div class="startup-logo">
+                    <img src="https://imgs.search.brave.com/VRjTjPsFdfCPuudwZSFSZTes3p8g6Gncm5kOWmRGnco/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdG9y/YWdlLmdvb2dsZWFw/aXMuY29tL2RhdGFu/eXplLWRhdGEvdGVj/aG5vbG9naWVzLzE1/NWZlYzNhNWMyN2Q0/N2IyNzI0M2Y5N2My/ZGE4OGFhZDFlNTJh/M2IucG5n" alt="PayZen">
+                </div>
+                <div class="startup-info">
+                    <h3>PayZen</h3>
+                    <span class="industry">Fintech</span>
+                    <p>Revolutionizing digital payments with blockchain technology.</p>
+                    <div class="startup-meta">
+                        <span><i class="fas fa-map-marker-alt"></i> Singapore</span>
+                        <span><i class="fas fa-users"></i> 50-100 employees</span>
+                    </div>
+                </div>
+                <div class="startup-actions">
+                    <a href="#" class="view-btn">View Details</a>
+                    <a href="#" class="apply-btn">Apply Now</a>
+                </div>
+            </div>
+            
+            <div class="startup-card">
+                <div class="startup-logo">
+                    <img src="https://imgs.search.brave.com/TKfqoNzdNQ_KcA8yJT56cTPF-_Ui2BtZ1EZp9e28mOc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy9k/L2Q1L01lZGljYXJl/Lmdvdl9sb2dvLnN2/Zw" alt="MediCare AI">
+                </div>
+                <div class="startup-info">
+                    <h3>MediCare AI</h3>
+                    <span class="industry">Health Tech</span>
+                    <p>AI-powered diagnostics and personalized healthcare solutions.</p>
+                    <div class="startup-meta">
+                        <span><i class="fas fa-map-marker-alt"></i> Boston</span>
+                        <span><i class="fas fa-users"></i> 30-60 employees</span>
+                    </div>
+                </div>
+                <div class="startup-actions">
+                    <a href="#" class="view-btn">View Details</a>
+                    <a href="#" class="apply-btn">Apply Now</a>
+                </div>
+            </div>
+            
+            <div class="startup-card">
+                <div class="startup-logo">
+                    <img src="https://imgs.search.brave.com/fCDiDV_3ouCHjB53qwcjWre_zXM_hydQY9YEYpWeXyI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAxLzUyLzUyLzM4/LzM2MF9GXzE1MjUy/Mzg2NV9uUnFDd1Z0/ODJ0VFFrSjJ3UzJs/dEVLMFVTWERPcXU2/VC5qcGc" alt="EduFuture">
+                </div>
+                <div class="startup-info">
+                    <h3>EduFuture</h3>
+                    <span class="industry">EdTech</span>
+                    <p>Personalized learning platforms with adaptive AI technology.</p>
+                    <div class="startup-meta">
+                        <span><i class="fas fa-map-marker-alt"></i> London</span>
+                        <span><i class="fas fa-users"></i> 40-75 employees</span>
+                    </div>
+                </div>
+                <div class="startup-actions">
+                    <a href="#" class="view-btn">View Details</a>
+                    <a href="#" class="apply-btn">Apply Now</a>
+                </div>
+            </div>
+            
+            <div class="startup-card">
+                <div class="startup-logo">
+                    <img src="https://imgs.search.brave.com/ZwQUpYgvkfTlkf1uosOB9du-aL-Ny6SHo4gGb6UNLxc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9kY2Fz/c2V0Y2RuLmNvbS9k/ZXNpZ25faW1nLzI3/OTM5NzEvNjY2MzY3/LzY2NjM2N18xNTQz/NzY2OV8yNzkzOTcx/XzZiZGM2MjkxX2lt/YWdlLmpwZw" alt="AgriGrow">
+                </div>
+                <div class="startup-info">
+                    <h3>AgriGrow</h3>
+                    <span class="industry">AgriTech</span>
+                    <p>Smart farming solutions using IoT and data analytics.</p>
+                    <div class="startup-meta">
+                        <span><i class="fas fa-map-marker-alt"></i> Bangalore</span>
+                        <span><i class="fas fa-users"></i> 15-30 employees</span>
+                    </div>
+                </div>
+                <div class="startup-actions">
+                    <a href="#" class="view-btn">View Details</a>
+                    <a href="#" class="apply-btn">Apply Now</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="view-more">
+            <a href="#" class="cta-btn">View All Startups</a>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <h2 class="section-title">Success Stories</h2>
+        <p class="section-subtitle">What our community says about us</p>
+        
+        <div class="testimonial-container">
+            <div class="testimonial-card">
+                <div class="testimonial-content">
+                    <p>"Estodo helped me find my dream job at a promising AI startup. The application process was seamless and I was matched with companies that aligned with my skills."</p>
+                </div>
+                <div class="testimonial-author">
+                    <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Sarah K.">
+                    <div>
+                        <h4>Sarah K.</h4>
+                        <span>Data Scientist at NexaTech</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial-card">
+                <div class="testimonial-content">
+                    <p>"As a startup founder, Estodo has been invaluable for finding talented engineers who are passionate about our mission. We've hired 5 team members through the platform."</p>
+                </div>
+                <div class="testimonial-author">
+                    <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="David L.">
+                    <div>
+                        <h4>David L.</h4>
+                        <span>CEO at GreenLife</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">Get in Touch</h2>
+        <p class="section-subtitle">We'd love to hear from you</p>
+        
+        <div class="contact-container">
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <select required>
+                        <option value="" disabled selected>I'm interested in...</option>
+                        <option>Finding a job at a startup</option>
+                        <option>Hiring talent for my startup</option>
+                        <option>Listing my startup</option>
+                        <option>Partnership opportunities</option>
+                        <option>Other inquiries</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="cta-btn">Send Message</button>
+            </form>
+            
+            <div class="contact-info">
+                <div class="info-card">
+                    <i class="fas fa-envelope"></i>
+                    <h4>Email Us</h4>
+                    <p>contact@estodo.com</p>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-phone"></i>
+                    <h4>Call Us</h4>
+                    <p>+91 98765 43210</p>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h4>Visit Us</h4>
+                    <p>123 Startup Street, Tech City</p>
+                </div>
+                
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="newsletter-content">
+            <h3>Stay Updated with Startup Opportunities</h3>
+            <p>Subscribe to our weekly newsletter for the latest job openings and startup news</p>
+        </div>
+        <form class="newsletter-form">
+            <input type="email" placeholder="Enter your email">
+            <button type="submit" class="cta-btn">Subscribe</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-col">
+                <h4>Estodo</h4>
+                <p>Connecting talent with innovative startups since 2020. Our mission is to build bridges between ambitious professionals and groundbreaking companies.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#startups">Startups</a></li>
+                    <li><a href="#benefits">Benefits</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Career Tips</a></li>
+                    <li><a href="#">Startup Guides</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Estodo. All rights reserved.</p>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
